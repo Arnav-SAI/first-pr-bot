@@ -14,7 +14,6 @@
 
 If they are new, it posts a friendly, customizable welcome message with a checklist to help them get their code merged faster.
 
-**🌐 Live Website:** [first-pr-bot-web.vercel.app](https://first-pr-bot-web.vercel.app)
 
 ## ✨ Features
 
