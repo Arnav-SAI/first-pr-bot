@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First-PR-Bot | Automated Mentorship</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Silkscreen&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -17,6 +22,7 @@
                     },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
+                        bitcount: ['Silkscreen', 'cursive'], // Tech font
                     }
                 }
             }
@@ -34,19 +40,18 @@
 <body class="flex flex-col min-h-screen">
 
     <nav class="w-full px-8 py-6 flex justify-between items-center max-w-6xl mx-auto">
-        <div class="text-2xl font-bold tracking-tight text-white">first-pr-bot</div>
+        <div class="text-2xl font-bold tracking-tight text-white font-bitcount">first-pr-bot</div>
         <a href="https://github.com/apps/first-pr-bot"
             class="hidden md:block text-wiseLime hover:text-white transition font-medium">View on GitHub</a>
     </nav>
 
     <main class="flex-grow flex flex-col items-center justify-center text-center px-4 mt-10 mb-20">
         <div class="max-w-3xl">
-            <h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-tight mb-8 text-wiseText">
-                Mentorship on <span class="text-wiseLime">Autopilot.</span>
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-tight mb-8 text-wiseText font-bitcount">
+                Onboarding on<span class="text-wiseLime">Autopilot.</span>
             </h1>
-            <p class="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto">
-                Instantly welcome new contributors to your repository with automated, helpful guidance. Turn first-time
-                coders into long-term maintainers.
+            <p class="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto font-sans">
+               "Make your first impression count. Give every new contributor a warm welcome and a clear path to success, without lifting a finger."
             </p>
 
             <div class="flex flex-col md:flex-row gap-4 justify-center">
@@ -54,7 +59,8 @@
                     class="bg-wiseLime text-wiseGreen font-bold text-lg px-8 py-4 rounded-full hover:bg-white transition transform hover:scale-105 duration-200">
                     Add to GitHub
                 </a>
-                <a href="#how-it-works"
+                
+                <a href="https://github.com/Arnav-SAI/first-pr-bot#readme" target="_blank"
                     class="border border-gray-500 text-white font-medium text-lg px-8 py-4 rounded-full hover:border-white transition">
                     How it works
                 </a>
