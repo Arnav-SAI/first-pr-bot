@@ -74,4 +74,4 @@ We love contributions! If you have ideas for how to make the bot smarter (e.g., 
 This project is licensed under the ISC License.
 
 ---
-*Built with ❤️ by [Arnav Saini](https://github.com/Arnav-SAI)*
+
