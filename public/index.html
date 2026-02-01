@@ -8,7 +8,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -21,8 +21,7 @@
                         wiseText: '#ffffff',
                     },
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        bitcount: ['Silkscreen', 'cursive'], // Tech font
+                        sans: ['Inter', 'sans-serif'], // Wise-style font
                     }
                 }
             }
@@ -33,6 +32,7 @@
             font-family: 'Inter', sans-serif;
             background-color: #163300;
             color: white;
+            -webkit-font-smoothing: antialiased; /* Makes font look sharper */
         }
     </style>
 </head>
@@ -40,18 +40,19 @@
 <body class="flex flex-col min-h-screen">
 
     <nav class="w-full px-8 py-6 flex justify-between items-center max-w-6xl mx-auto">
-        <div class="text-2xl font-bold tracking-tight text-white font-bitcount">first-pr-bot</div>
+        <div class="text-2xl font-bold tracking-tight text-white">first-pr-bot</div>
         <a href="https://github.com/apps/first-pr-bot"
             class="hidden md:block text-wiseLime hover:text-white transition font-medium">View on GitHub</a>
     </nav>
 
     <main class="flex-grow flex flex-col items-center justify-center text-center px-4 mt-10 mb-20">
         <div class="max-w-3xl">
-            <h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-tight mb-8 text-wiseText font-bitcount">
-                Onboarding on<span class="text-wiseLime">Autopilot.</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-tight mb-8 text-wiseText">
+                Onboarding on <span class="text-wiseLime">Autopilot.</span>
             </h1>
-            <p class="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto font-sans">
-               "Make your first impression count. Give every new contributor a warm welcome and a clear path to success, without lifting a finger."
+            
+            <p class="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto font-medium">
+                Automate your project's onboarding. Instantly guide new contributors with custom checklists and turn drive-by PRs into long-term maintainers.
             </p>
 
             <div class="flex flex-col md:flex-row gap-4 justify-center">
