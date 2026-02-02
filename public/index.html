@@ -10,14 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap" rel="stylesheet">
     
     <script src="https://cdn.tailwindcss.com"></script>
-    
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        wiseGreen: '#163300',
-                        wiseLime: '#9FE870',
+                        wiseGreen: '#163300', // Deep forest green
+                        wiseLime: '#9FE870',  // Bright lime
                         wiseText: '#ffffff',
                     },
                     fontFamily: {
@@ -36,11 +35,13 @@
         }
     </style>
 </head>
+
 <body class="flex flex-col min-h-screen">
 
     <nav class="w-full px-8 py-6 flex justify-between items-center max-w-6xl mx-auto">
         <div class="text-2xl font-bold tracking-tight text-white">first-pr-bot</div>
-        <a href="https://github.com/apps/first-pr-bot" class="hidden md:block text-wiseLime hover:text-white transition font-medium">View on GitHub</a>
+        <a href="https://github.com/apps/first-pr-bot"
+            class="hidden md:block text-wiseLime hover:text-white transition font-medium">View on GitHub</a>
     </nav>
 
     <main class="flex-grow flex flex-col items-center justify-center text-center px-4 mt-10 mb-20">
@@ -54,11 +55,13 @@
             </p>
 
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="https://github.com/apps/first-pr-bot/installations/new" class="bg-wiseLime text-wiseGreen font-bold text-lg px-8 py-4 rounded-full hover:bg-white transition transform hover:scale-105 duration-200">
+                <a href="https://github.com/apps/first-pr-bot/installations/new"
+                    class="bg-wiseLime text-wiseGreen font-bold text-lg px-8 py-4 rounded-full hover:bg-white transition transform hover:scale-105 duration-200">
                     Add to GitHub
                 </a>
                 
-                <a href="https://github.com/Arnav-SAI/first-pr-bot#readme" target="_blank" class="border border-gray-500 text-white font-medium text-lg px-8 py-4 rounded-full hover:border-white transition">
+                <a href="https://github.com/Arnav-SAI/first-pr-bot#readme" target="_blank"
+                    class="border border-gray-500 text-white font-medium text-lg px-8 py-4 rounded-full hover:border-white transition">
                     How it works
                 </a>
             </div>
@@ -76,7 +79,8 @@
                     <div class="bg-gray-800 p-3 rounded-r-lg rounded-bl-lg text-gray-200">
                         <p class="font-bold text-wiseLime mb-1">first-pr-bot</p>
                         <p>👋 Hi @arnav! Welcome to the project.</p>
-                        <p class="mt-2 text-gray-400">Since this is your first contribution, here is a quick checklist:</p>
+                        <p class="mt-2 text-gray-400">Since this is your first contribution, here is a quick checklist:
+                        </p>
                         <ul class="list-disc ml-4 mt-1 text-gray-400">
                             <li>Check your linting</li>
                             <li>Add unit tests</li>
