@@ -68,9 +68,5 @@ We love contributions! If you have ideas for how to make the bot smarter (e.g., 
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the ISC License.
-
 ---
 
